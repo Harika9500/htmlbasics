@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>web developer</title>
-    </head>
-    <body>
-        <header>
-            <h2>basic language of the HTML</h2>
-            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMThfaGFwcHlfc2hpYmFfaW51X2RvZ19pc29sYXRlZF9vbl93aGl0ZV9iYWNrZ3JvdV82YWQ5M2IzYy02ODhhLTQ1MjgtODBkOC0xMjM0MWExYWI2YmIucG5n.png"/>
-        </header>
-        <h1> code magazine</h1>
-        <h2>harika</h2>
-        <p>
-            <article>
-            posted by <strong>laura jones</strong> on monday 23 oct 2023
+<style>
+    h1 {
+        color: blue
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="color:blueviolet">basic language of the HTML</h1>
+        <img
+            src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMThfaGFwcHlfc2hpYmFfaW51X2RvZ19pc29sYXRlZF9vbl93aGl0ZV9iYWNrZ3JvdV82YWQ5M2IzYy02ODhhLTQ1MjgtODBkOC0xMjM0MWExYWI2YmIucG5n.png" />
+    </header>
+    <h1> code magazine</h1>
+    <h2>harika</h2>
+    <p>
+    <article>
+        posted by <strong>laura jones</strong> on monday 23 oct 2023
         </p>
         <p>
             all members are in the class <em>fourth standard</em> room
         </p>
+
+        <div class="para1">
+            <p>paragraph1</p>
+            <p>paragraph2</p>
+        </div>
+        <div class="para2">
+            <p>paragraph3</p>
+            <p>paragraph4</p>
+        </div>
         <ol>
             <li>bus</li>
             <li>car</li>
@@ -26,36 +43,41 @@
             <li>car</li>
         </ul>
     </article>
-<a href="www.google.com" target="_blank">
-    <h1>click me</h1>
-            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMThfaGFwcHlfc2hpYmFfaW51X2RvZ19pc29sYXRlZF9vbl93aGl0ZV9iYWNrZ3JvdV82YWQ5M2IzYy02ODhhLTQ1MjgtODBkOC0xMjM0MWExYWI2YmIucG5n.png"/>
-</a>
-<aside>
-    <h4>related posts </h4>
-    <ul>
-    <li>
-    <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg"
-    <a href="#"> how to learn web development </a>
-    <p>by harika </p>
-    </li>
+    <div 
+        class="container">
+        </div>
+    <a href="www.google.com" target="_blank">
+        <h1>click me</h1>
+        <img style="margin-top :10px;"
+            src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMThfaGFwcHlfc2hpYmFfaW51X2RvZ19pc29sYXRlZF9vbl93aGl0ZV9iYWNrZ3JvdV82YWQ5M2IzYy02ODhhLTQ1MjgtODBkOC0xMjM0MWExYWI2YmIucG5n.png" />
+    </a>
+    <aside>
+        <h4>related posts </h4>
+        <ul>
+            <li>
+                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg" <a href="#"> how to learn
+                web development </a>
+                <p>by harika </p>
+            </li>
 
-    </ul>
-</aside>
-<form action="www.harika.com">
-<label for="fname">First name:</label><br>
-<input type ="text" id="fname" name="fname"><br>
-<label for ="lname">Number:</label><br>
-<input type="Number" id="lname" name="lname"><br>
-<label for ="lname">Password :</label>:</label><br>
-<input type="Password" id="lname" name="lname"><br>
-<label for ="lname">email:</label>:</label><br>
-<input type="email" id="lname" name="lname"><br>
-<input type="radio" id="javascript" name="fav_language">
-<label for="javascript">Javascript</label>
-<button type="submit">submitt</button>
-</form>
-<div>
-    <h1>DIV TAG</h1>
-</div>
-    </body>
+        </ul>
+    </aside>
+    <form action="www.harika.com">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Number:</label><br>
+        <input type="Number" id="lname" name="lname"><br>
+        <label for="lname">Password :</label>:</label><br>
+        <input type="Password" id="lname" name="lname"><br>
+        <label for="lname">email:</label>:</label><br>
+        <input type="email" id="lname" name="lname"><br>
+        <input type="radio" id="javascript" name="fav_language">
+        <label for="javascript">Javascript</label>
+        <button type="submit">submitt</button>
+    </form>
+    <div>
+        <h1>DIV TAG</h1>
+    </div>
+</body>
+
 </html>
